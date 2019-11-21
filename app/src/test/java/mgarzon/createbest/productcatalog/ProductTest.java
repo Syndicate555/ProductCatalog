@@ -19,7 +19,7 @@ public class ProductTest {
     @Test
     public void checkProductPrice() {
         // I am making this test to fail
-        Product aProduct = new Product("1", "DELL MONITOR", 0);
+        Product aProduct = new Product("1", "DELL MONITOR", 180);
         assertEquals(180.0, aProduct.getPrice(),0);
     }
 
